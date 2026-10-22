@@ -1,0 +1,9 @@
+dist/
+artifacts/
+node_modules/
+project.private.config.json
+douyin.config.json
+
+# Keep local planning and preparation documents out of the repository.
+/*.md
+!/README.md

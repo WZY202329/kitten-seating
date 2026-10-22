@@ -1,0 +1,15 @@
+{
+  "name": "cat-sort-mini-game",
+  "version": "0.4.0",
+  "private": true,
+  "description": "100关猫咪排序，种子生成与本地存档，浏览器与抖音 Canvas 共用核心。",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "start": "node scripts/serve.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "check": "node scripts/check.cjs",
+    "test:browser": "node scripts/browser-check.cjs",
+    "levels:check": "node scripts/validate-levels.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
